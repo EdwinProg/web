@@ -1,0 +1,37 @@
+.position{
+    position:absolute;
+    top:52%;
+    left: 59.7%;
+    transform: translate(-2.5%,-8.5%);
+    
+}
+.slider{
+    background-image: url(dibujo.jpeg);
+    background-size: cover;
+    height: 72.5%;
+    width: 40%;
+    animation: animate 10s infinite;
+}
+@keyframes animate{
+    20%{
+        background-image: url(dibujo.jpeg);
+        background-size: cover
+    }
+    40%{
+        background-image: url(basquet.jpeg);
+        background-size: cover
+    } 
+    60%{
+        background-image: url(guitarra.jpeg);
+        background-size: cover
+    }
+    80%{
+        background-image: url(videojuegos.jpeg);
+        background-size: cover
+    }
+    100%{
+        background-image: url(peliculas.jpeg);
+        background-size: cover
+    }
+    
+}

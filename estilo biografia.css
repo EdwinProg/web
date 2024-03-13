@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: emoji;
+    background-color: #9c9cff;
+    padding: 10px;
+    
+    
+}
+
+
+
+.Biografia{
+    padding:30px;
+    text-align:center;
+    background-color:#6363ff;
+}
+
+.Biografia h1{
+    font-size:45pt;
+    color: whitesmoke;
+    font-family: emoji;
+    text-shadow: #000072 -2px 6px;
+}
+.gustos{
+    background-color: #6c76e2;
+    overflow: hidden;
+    font-size: 15pt;
+   
+}
+.gustos a{
+    float: left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 84px;
+    text-decoration: none
+}
+.gustos a:hover{
+    background-color: #000089;
+    color:antiquewhite;
+    
+}
+.izq{
+    float: left;
+    width: 60%;
+    background-color: #9c9cff;
+    font-size: 18pt;
+    padding-left: 20px;
+}
+.der{
+    float: right;
+    width: ;
+    background-color: #9c9cff;
+    padding-left:20px ;
+}
+.cuerpo:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+.pie{
+    overflow: hidden;
+    padding:20px;
+    margin-top:40px;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    .izq, .der{
+        width: 100%;
+        padding:0;
+    }
+}
+@media screen and (max-width:800px){
+    .menu a{
+        float:none;
+        width:100%;
+    }
+}
+
+
+
